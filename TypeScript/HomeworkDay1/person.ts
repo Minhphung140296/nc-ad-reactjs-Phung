@@ -4,7 +4,7 @@ interface Iperson{
     sayHi: () =>string
 }
 
-class person implements Iperson{
+class Person implements Iperson{
     firstname= '';
     lastname='';
     sayHi= () =>{
@@ -12,7 +12,7 @@ class person implements Iperson{
     }
 }
 
-const person1 = new person();
+const person1 = new Person();
 person1.firstname = 'Le';
 person1.lastname = 'Phung';
 
